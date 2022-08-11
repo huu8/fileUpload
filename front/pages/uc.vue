@@ -334,6 +334,7 @@ export default {
             this.chunks[index].progress = Number(((progress.loaded/progress.total)*100).toFixed(2))
           }
         }))
+        
       // @todo 并发量控制 
       // 尝试申请tcp链接过多，也会造成卡顿
       // 异步的并阿叔控制，
